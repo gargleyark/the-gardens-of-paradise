@@ -41,7 +41,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
   return (
     <>
-      {!open && <PromoSection />}
+      {/* {!open && <PromoSection />} */}
       <div
         className={cn(
           "sticky top-0 z-[100]",
@@ -55,22 +55,16 @@ const Navbar: React.FC<NavbarProps> = () => {
               <HamburgerMenu className="w-6" />
             </button>
 
-            <Logo />
+            {/* <Logo /> */}
           </div>
 
           <div className="hidden basis-2/4 lg:block">
             <NavLinks />
           </div>
 
-          <div className="flex items-center gap-1 lg:basis-1/4 lg:justify-end lg:gap-4">
+          {/* <div className="flex items-center gap-1 lg:basis-1/4 lg:justify-end lg:gap-4">
             <SearchIcon className="hidden lg:block" />
-            <UserIcon className="hidden lg:block" />
-            <CartIcon className="w-6" />
-            <NotificationCount
-              count={2}
-              className={cn(isRootPage ? "text-[#FFAB00]" : "text-white")}
-            />
-          </div>
+          </div> */}
 
           {/* mobile navbar  */}
           <NavMobile open={open} onClick={() => setOpen(false)} />

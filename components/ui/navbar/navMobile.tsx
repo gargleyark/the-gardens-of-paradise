@@ -25,19 +25,14 @@ const links = [
     name: "Home",
   },
   {
-    id: "shop",
-    path: "/shop",
-    name: "Shop",
+    id: "history",
+    path: "/history",
+    name: "The History of Al-Andalus",
   },
   {
-    id: "product",
-    path: "/product",
-    name: "Product",
-  },
-  {
-    id: "contact-us",
-    path: "/contact-us",
-    name: "Contact Us",
+    id: "preorder",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1",
+    name: "Pre-Order",
   },
 ];
 

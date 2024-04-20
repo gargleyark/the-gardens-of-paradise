@@ -33,7 +33,7 @@ export default function Page() {
             weight={500}
             className="absolute left-0 top-8 w-full text-center"
           >
-            Kupingplug
+            Winged Horse Press
           </Text>
 
           <Image

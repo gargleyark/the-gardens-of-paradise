@@ -33,23 +33,29 @@ export default function Home() {
         {/* Text content */}
         <div className="flex flex-col items-center gap-4 p-8 sm:max-w-[600px] md:max-w-[600px] md:py-16 lg:order-2 lg:max-w-none lg:items-start lg:p-0">
           <div className="space-y-2 text-center lg:text-left">
-            <Heading as="h1" intent="hero-section">
-              Listen to the <span className="text-[#377DFF]">amazing</span>{" "}
-              music sound.
+            <Heading
+              as="h1"
+              intent="hero-section"
+              className="font-imb_plex_serif"
+            >
+              The Gardens of Paradise
             </Heading>
-            <Text className="md:text-lg lg:text-xl">
-              Experience music like never before
-            </Text>
+
+            <h3 className="md:pb-8 md:pt-2 md:text-xl lg:text-[32px]">
+              Poems from Al-Andalus
+            </h3>
           </div>
-          <Button fontSize="sm" className="px-14 py-3 md:text-lg">
-            Shopping Now
-          </Button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1">
+            <Button fontSize="sm" className="px-14 py-3 md:text-lg">
+              Pre-Order Now
+            </Button>
+          </a>
         </div>
 
         {/* Image content */}
         <div className="flex h-auto w-full items-end justify-center overflow-hidden lg:order-1">
           <Image
-            src="/images/main.png"
+            src="/images/main-2.png"
             width={600}
             height={761}
             alt="nigga-listening-music"
@@ -58,244 +64,189 @@ export default function Home() {
         </div>
       </SectionLayout>
 
-      {/* Product section */}
       <SectionLayout>
-        <div className="space-y-10 p-8">
+        <div className="m-auto space-y-2 p-8 lg:flex lg:w-[1000px] lg:flex-col lg:content-center lg:items-start">
           <Heading
             as="h2"
             intent="base-section"
-            className="text-center md:text-left"
+            className="w-full text-center "
           >
-            New Arrivals
+            A new collection of poems
           </Heading>
-
-          {/* catalog product slider */}
-          <CatalogSlider />
-        </div>
-      </SectionLayout>
-
-      {/* Shop collection section */}
-      <SectionLayout>
-        <div className="space-y-4 px-8 py-10 sm:space-y-8 md:space-y-12">
-          <Heading
-            as="h2"
-            intent="base-section"
-            className="text-center md:text-left"
-          >
-            Shop Collection
-          </Heading>
-
-          <div className="grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:h-[560px]">
-            {/* Main collection */}
-            <div className="relative aspect-[0.8/1] min-h-[377px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:row-span-2 sm:aspect-auto sm:h-full sm:min-w-0">
-              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
-                <Image
-                  src="/images/sumplekuping-2.png"
-                  width={262}
-                  height={349}
-                  alt="background collection"
-                  className="aspect-[0.75/1] w-[80%] -translate-y-[10%] object-center md:w-[60%]"
-                />
-              </div>
-
-              <div className="relative flex h-full flex-col justify-end gap-2">
-                <Heading as="h3" intent="collection-card">
-                  Headband
-                </Heading>
-                <Link href="/shop" className="w-fit">
-                  <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
-                    <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
-                  </span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Another collection */}
-            <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
-              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
-                <Image
-                  src="/images/sumplekuping-4.png"
-                  width={262}
-                  height={349}
-                  alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
-                />
-              </div>
-
-              <div className="relative flex h-full flex-col justify-end gap-2">
-                <Heading as="h3" intent="collection-card">
-                  Earbuds
-                </Heading>
-                <Link href="/shop" className="w-fit">
-                  <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
-                    <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
-                  </span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Another collection */}
-            <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
-              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
-                <Image
-                  src="/images/sumplekuping-5.png"
-                  width={262}
-                  height={349}
-                  alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
-                />
-              </div>
-
-              <div className="relative flex h-full flex-col justify-end gap-2">
-                <Heading as="h3" intent="collection-card">
-                  Accessories
-                </Heading>
-                <Link href="/shop" className="w-fit">
-                  <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
-                    <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
-                  </span>
-                </Link>
-              </div>
-            </div>
+          <div className="space-y-2 px-8 py-2">
+            Discover the verses of Al-Andalus with this enchanting collection of
+            90 newly translated Islamic Andalusian poems. Adapted to preserve a
+            rhyming style, these lyrical verses transport you back in time to
+            the vibrant streets and ancient palaces of medieval Islamic Spain
+            and Portugal.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            From the pens of rulers, politicians, soldiers, men and women, these
+            poems offer a rich tapestry of voices spanning from the 8th to the
+            15th century - the lifespan of Al-Andalus.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            Immerse yourself in bustling cities, fragrant gardens, and majestic
+            palaces. Feel the pulse of daily life, the rhythm of love and
+            longing, and the echoes of wisdom passed down through generations.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            This collection also explores the depth of religious contemplation,
+            the solemnity of elegies for cities lost to conquest, and presents
+            the final years of Al-Andalus through the eyes of its poets.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            These translations breathe new life into ancient verses, allowing
+            you to savor them as they were meant to be enjoyed – as lyrical
+            works that sing to the soul. These translations have carefully been
+            adapted so that the beauty of these poems can be appreciated as
+            lyrical works even though they are in translation.
           </div>
         </div>
       </SectionLayout>
 
-      {/* Best seller section */}
+      {/* Product section */}
       <SectionLayout>
-        <div className="space-y-4 px-8 py-10 sm:space-y-8 md:space-y-12 lg:pb-24">
+        <div className="m-auto space-y-2 p-8 lg:flex lg:w-[1000px] lg:flex-col lg:content-center lg:items-start">
           <Heading
             as="h2"
             intent="base-section"
-            className="text-center md:text-left"
+            className="w-full text-center "
           >
-            Best Seller
+            Introducing the poems
           </Heading>
-
-          <div className="grid grid-cols-2 gap-x-2 gap-y-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8 xl:grid-cols-5">
-            {products.map((product) => (
-              <ProductCard.Root key={product.id} data={product}>
-                <ProductCard.Thumbnail>
-                  <ProductCard.ThumbnailBadge>
-                    <ProductCard.Badge>new</ProductCard.Badge>
-                    <ProductCard.WishlistButton />
-                  </ProductCard.ThumbnailBadge>
-
-                  <ProductCard.Image />
-                </ProductCard.Thumbnail>
-
-                <ProductCard.Content>
-                  <ProductCard.Ratings />
-                  <ProductCard.Name />
-                  <ProductCard.Price />
-                </ProductCard.Content>
-              </ProductCard.Root>
-            ))}
+          <div className="space-y-2 px-8 py-2">
+            In the lands of Al-Andalus, now modern-day Spain and Portugal,
+            history whispers through the narrow streets and ancient palaces. A
+            thousand years ago, when this area was under Muslim rule, poetry
+            thrived as a vital part of everyday life. This collection of freshly
+            translated verses explores the different subjects of Arabic
+            Andalusian poetry, spanning the history of this captivating region.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            In this book, the poems are presented chronologically, but are also
+            divided into three sections.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            In the first section, we delve into the everyday life of Al-Andalus,
+            as depicted by its poets. From the various cities bustling with
+            activity to the serene gardens and palaces, their words paint a
+            vivid picture of the vibrant society that flourished here. Love,
+            wisdom, and spiritual yearning permeate their verses, reflecting the
+            diverse experiences of the people who called this land home.
+          </div>
+          <Image
+            src="/images/left.png"
+            width={1250}
+            height={1080}
+            alt="promotion-card"
+            className="m-auto h-auto w-full object-cover md:w-[300px]"
+          />
+          <div className="space-y-2 px-8 py-2">
+            The second part of this collection is more sombre, and deals with
+            religious poetry or poetry regarding the Arabic Andalusian
+            perspective on death. These are thoughtful poems, considering sin
+            and forgiveness, and the juxtaposition of an immortal soul within a
+            mortal body.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            Finally, in the third part of this collection we encounter the
+            sombre elegies and poetic laments for cities and lands lost to
+            conquest. Among the ruins of once-mighty fortresses, these verses
+            mourn the passing of an era and the displacement of its people.
+            These ultimately tell the story of the last years of Al-Andalus,
+            before its final destruction at the fall of Granada in 1492.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            Throughout the history of Al-Andalus, poetry was a poignant
+            expression of the Andalusian experience. In the third part of this
+            book we see the poignant end of Al-Andalus. In the verses of poets
+            such as ar-Rundi, we glimpse the anguish and defiance of a people
+            grappling with the loss of their homeland. Elegies mourned the fall
+            of once-great cities like Cordoba and Seville, while odes celebrated
+            the resilience of Al-Andalusian culture in the face of adversity.
+            These poems served as both a lament for the past and a rallying cry
+            for the future, capturing the spirit of a society struggling to
+            preserve its identity in the midst of a seemingly endless war.
+            Through their words, we bear witness to the profound impact of the
+            Reconquista on the hearts and minds of those who lived through it,
+            forever immortalized in the annals of Andalusian poetry.
+          </div>
+          <Image
+            src="/images/right.png"
+            width={1250}
+            height={1080}
+            alt="promotion-card"
+            className="m-auto h-auto w-full object-cover md:w-[300px]"
+          />
+          <div className="space-y-2 px-8 py-2">
+            The translation and adaptation of these poems has purposely been
+            focused on keeping a lyrical feel to the lines, as it was not
+            uncommon for Andalusian poetry to be originally set to music. Rhymes
+            could also impart meaning; for example, some laments were written as
+            nuniyyas, a type of poem where the final line would end with an ‘n’
+            sound, intended as a mournful sounding rhyme. To this end, these
+            poems have been translated as faithfully as possible, while also
+            building a lyrical form for them in English - so the meaning is
+            preserved, while the lines may not be translated exactly and
+            literally as they appeared in their original Arabic. This was a
+            trade off that had to be made to allow new rhymes to work in
+            English, and has breathed new life into the often bland bones of
+            translated works. Where possible, the original Arabic has been
+            consulted to influence the rhyming scheme.
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            This collection of poems is an attempt to bridge the gap between
+            past and present, connecting us to the rich heritage of Al-Andalus
+            and the enduring power of poetry to transcend the ages. Through
+            these translations, the voices and whispers of Al-Andalus, some of
+            which fell silent over a thousand years ago, can still call out and
+            touch our hearts today.
           </div>
         </div>
       </SectionLayout>
 
       {/* Promotion section */}
       <div className="grid overflow-hidden md:grid-cols-2 lg:h-full lg:max-h-[500px] lg:place-items-center">
-        <div className="w-full justify-end bg-gray-400 md:flex">
+        <div className="h-full w-full justify-end bg-[#ECE9E1] md:flex">
           <Image
-            src="/images/promotion-card.png"
+            src="/images/offer.jpg"
             width={1250}
             height={1080}
             alt="promotion-card"
-            className="h-auto w-full object-cover lg:w-[460px]"
+            className="h-auto w-full object-cover md:h-full md:w-auto"
           />
         </div>
 
-        <div className="order-1 w-full bg-[#ffdd99] md:order-2">
+        <div className="order-1 h-full w-full bg-[#ffdd99] md:order-2">
           <div className="w-full max-w-[720px] space-y-6 p-8">
             <div className="space-y-4">
-              <Text weight={700} transform="uppercase" color="blue">
+              <Text weight={700} transform="uppercase" color="gray">
                 promotion
               </Text>
               <Heading as="h2" intent="base-section">
-                Hurry up! 40% OFF
+                Pre-order your copy now.
               </Heading>
-              <Text size="sm">Thousands of high tech are waiting for you</Text>
+              <Text size="sm" className="md:w-[350px]">
+                90 Poems representing life during the rise and fall of
+                Al-Andalus. Expected release date: June 2024
+              </Text>
             </div>
-            <div className="space-y-3">
-              <Text>Offer expires in:</Text>
-              <div className="flex gap-4">
-                <div className="w-fit">
-                  <div className="flex h-[60px] w-[60px] items-center justify-center bg-white">
-                    <Text
-                      size="3xl"
-                      weight={500}
-                      family="poppins"
-                      color="black/800"
-                    >
-                      02
-                    </Text>
-                  </div>
-                  <Text size="xs" color="black/800" className="text-center">
-                    Days
-                  </Text>
-                </div>
-                <div className="w-fit">
-                  <div className="flex h-[60px] w-[60px] items-center justify-center bg-white">
-                    <Text
-                      size="3xl"
-                      weight={500}
-                      family="poppins"
-                      color="black/800"
-                    >
-                      12
-                    </Text>
-                  </div>
-                  <Text size="xs" color="black/800" className="text-center">
-                    Hours
-                  </Text>
-                </div>
-                <div className="w-fit">
-                  <div className="flex h-[60px] w-[60px] items-center justify-center bg-white">
-                    <Text
-                      size="3xl"
-                      weight={500}
-                      family="poppins"
-                      color="black/800"
-                    >
-                      45
-                    </Text>
-                  </div>
-                  <Text size="xs" color="black/800" className="text-center">
-                    Minutes
-                  </Text>
-                </div>
-                <div className="w-fit">
-                  <div className="flex h-[60px] w-[60px] items-center justify-center bg-white">
-                    <Text
-                      size="3xl"
-                      weight={500}
-                      family="poppins"
-                      color="black/800"
-                    >
-                      05
-                    </Text>
-                  </div>
-                  <Text size="xs" color="black/800" className="text-center">
-                    Seconds
-                  </Text>
-                </div>
-              </div>
-            </div>
-            <Button fontSize="sm" className="py-1.5 md:text-base">
-              Shop now
-            </Button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1"
+              className="block py-1.5"
+            >
+              <Button fontSize="sm" className="py-1.5 md:text-base">
+                Pre-order
+              </Button>
+            </a>
           </div>
         </div>
       </div>
 
       {/* Features section */}
       <SectionLayout>
-        <div className="grid grid-cols-2 gap-x-2 gap-y-6 p-8 md:grid-cols-4 lg:gap-6 lg:py-10">
+        <div className="grid grid-cols-2 gap-x-2 gap-y-6 p-8 md:grid-cols-3 lg:gap-6 lg:py-10">
           <div className="space-y-4 bg-[#F3F5F7] px-4 py-8 lg:px-8 lg:py-12">
             <DeliveryIcon className="h-12 w-12" />
             <div className="space-y-1 md:space-y-2">
@@ -306,10 +257,10 @@ export default function Home() {
                 color="black/800"
                 className="lg:text-xl"
               >
-                Free Shipping
+                Free UK Shipping
               </Text>
               <Text size="sm" color="gray">
-                Order above $200
+                International shipping is also available
               </Text>
             </div>
           </div>
@@ -343,24 +294,8 @@ export default function Home() {
                 Secure Payments
               </Text>
               <Text size="sm" color="gray">
-                Secured by Striped
-              </Text>
-            </div>
-          </div>
-          <div className="space-y-4 bg-[#F3F5F7] px-4 py-8 lg:px-8 lg:py-12">
-            <CallIcon className="h-12 w-12" />
-            <div className="space-y-1 md:space-y-2">
-              <Text
-                size="sm"
-                weight={600}
-                family="poppins"
-                color="black/800"
-                className="lg:text-xl"
-              >
-                24/7 Support
-              </Text>
-              <Text size="sm" color="gray">
-                Phone and Email support
+                You will receive a PayPal invoice for your order when it is
+                ready
               </Text>
             </div>
           </div>
@@ -368,7 +303,7 @@ export default function Home() {
       </SectionLayout>
 
       {/* Newsfeed section */}
-      <SectionLayout>
+      {/* <SectionLayout>
         <div className="space-y-10 px-8 py-10">
           <div className="space-y-4 text-center">
             <Text weight={700} transform="uppercase" color="gray">
@@ -385,7 +320,7 @@ export default function Home() {
             </Text>
           </div>
         </div>
-      </SectionLayout>
+      </SectionLayout> */}
     </>
   );
 }

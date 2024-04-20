@@ -1,12 +1,18 @@
 // package
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { IBM_Plex_Serif, Inter, Poppins } from "next/font/google";
 
 // lib
 import { cn } from "@/lib/utils";
 
 // css
 import "./globals.css";
+
+const imb_plex_serif = IBM_Plex_Serif({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-imb_plex_serif",
+});
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,8 +27,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kupingplug - Sumpel kuping untuk anda dan keluarga",
-  description: "Kupingplug - Sumpel kuping untuk anda dan keluarga",
+  title: "The Gardens of Paradise - Poems from Al-Andalus",
+  description: "The Gardens of Paradise - Poems from Al-Andalus",
 };
 
 export default function RootLayout({
@@ -31,7 +37,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cn(inter.variable, poppins.variable)}>
+    <html
+      lang="en"
+      className={cn(inter.variable, imb_plex_serif.variable, poppins.variable)}
+    >
       <body>{children}</body>
     </html>
   );

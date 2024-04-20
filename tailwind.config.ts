@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
+        imb_plex_serif: ["var(--font-imb_plex_serif)", "sans-serif"],
         poppins: ["var(--font-poppins)", "sans-serif"],
       },
       colors: {
