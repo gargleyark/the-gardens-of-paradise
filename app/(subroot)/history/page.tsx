@@ -303,7 +303,7 @@ export default function Home() {
               In the Muslim era, when Almería served as the primary military
               port of the Caliphate of Córdoba, Exfiliana gained significance as
               a key town along the route to the port. During this time, it was
-              known as "Tustar" or "Xustar."
+              known as &quot;Tustar&quot; or &quot;Xustar.&quot;
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
