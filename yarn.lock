@@ -85,6 +85,11 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.6.tgz#22958c042e10b67463997bd6ea7115fe28cbcaf9"
   integrity sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==
 
+"@formfacade/embed-react@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@formfacade/embed-react/-/embed-react-1.0.4.tgz#7bea9973da9265268b377ecb22cdac3048d26722"
+  integrity sha512-0aGRMi9q8EOtTXOp5rzmOsNszIUvuR3yRPED///AGgp+BIh2Z5mXmpSw9PDvC0/vRTnmSfb6TzU20h+Yp0DL5Q==
+
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.13.tgz#075dc9684f40a531d9b26b0822153c1e832ee297"

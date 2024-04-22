@@ -13,9 +13,9 @@ export const formatCurrency = (
   amount: number,
   options?: FormatCurrencyProps,
 ) => {
-  const { currency = "USD" } = options || {};
+  const { currency = "GBP" } = options || {};
 
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("en-GB", {
     style: "currency",
     currency,
   }).format(amount);

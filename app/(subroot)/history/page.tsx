@@ -123,6 +123,361 @@ export default function Home() {
         </div>
       </SectionLayout>
 
+      <SectionLayout>
+        <div className="m-auto space-y-2 p-8 lg:flex lg:w-[700px] lg:flex-col lg:content-center lg:items-center ">
+          <Heading
+            as="h2"
+            intent="base-section"
+            className="text-center md:text-left"
+          >
+            Places you will encounter in this collection
+          </Heading>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Córdoba
+            </Heading>
+            <div>
+              Córdoba was the capital of the Islamic Caliphate of Córdoba, a
+              center of learning, culture, and science during the medieval
+              period. It reached its zenith under Abd al-Rahman III and his
+              successors, boasting grand mosques, palaces, and libraries, most
+              notably the breathtaking Great Mosque of Córdoba.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Seville
+            </Heading>
+            <div>
+              Seville, known as Ishbiliya in Arabic, was another significant
+              city in Al-Andalus. It was conquered by the Moors in 712 AD and
+              became a prominent cultural and economic center with its strategic
+              location on the Guadalquivir River.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Granada
+            </Heading>
+            <div>
+              Granada is renowned for the Alhambra, a stunning palace and
+              fortress complex constructed during the Nasrid dynasty. It was the
+              last Muslim stronghold to fall to the Catholic Monarchs in 1492,
+              marking the end of Muslim rule in Spain.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Toledo
+            </Heading>
+            <div>
+              Toledo was a multicultural city under Islamic rule, known for its
+              production of steel and its vibrant intellectual scene. It served
+              as a center for translation and preservation of ancient Greek and
+              Roman texts into Arabic.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Málaga
+            </Heading>
+            <div>
+              Málaga was an important port city under Muslim rule, known for its
+              trade and commerce. It housed several mosques, baths, and
+              fortifications.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Zaragoza
+            </Heading>
+            <div>
+              Zaragoza, or Saraqusta, was a key city during the Umayyad period
+              and later under the Taifa kingdoms. It flourished as a center of
+              Islamic art, culture, and education.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Murcia
+            </Heading>
+            <div>
+              Murcia was a significant city in Al-Andalus, known for its
+              agriculture, particularly the cultivation of silk. It was also a
+              center for Islamic scholarship and architecture.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Badajoz
+            </Heading>
+            <div>
+              Badajoz, or Batalyaws, was an important frontier city during the
+              Muslim rule, serving as a military stronghold and a center for
+              trade and agriculture.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Santarém
+            </Heading>
+            <div>
+              Santarém, or Shantarin, was a key city in Portugal under Islamic
+              rule, known for its strategic location on the Tagus River and its
+              agricultural production.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Dénia
+            </Heading>
+            <div>
+              Dénia was a coastal city that served as a vital trading hub under
+              Muslim rule, connecting Al-Andalus with the Mediterranean world.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Jerex
+            </Heading>
+            <div>
+              Jerez, or Xerez, was an important settlement strategically located
+              near the frontier between Muslim-controlled territories and the
+              Christian kingdoms to the north. It was part of the Emirate of
+              Córdoba and later the Caliphate of Córdoba.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Exfiliana
+            </Heading>
+            <div>
+              In the Muslim era, when Almería served as the primary military
+              port of the Caliphate of Córdoba, Exfiliana gained significance as
+              a key town along the route to the port. During this time, it was
+              known as "Tustar" or "Xustar."
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Ar-Rusafa (or Al-Rusafa)
+            </Heading>
+            <div>
+              The Palace of Ar-Rusafa, near Córdoba, was commissioned by ‘Abd
+              al-Rahman I, the first Umayyad emir of the West. It is a
+              significant example of Umayyad architecture in Al-Andalus. Named
+              after a property of his grandfather in Syria, it marked the
+              beginning of the development of almunias, rural estates, in the
+              region.{" "}
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Almeria
+            </Heading>
+            <div>
+              Almeria was a coastal city with a strategic port, serving as a
+              center for trade and maritime activities during Islamic rule.
+            </div>
+          </div>{" "}
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Algeciras
+            </Heading>
+            <div>
+              Under Muslim rule, Algeciras was a significant port city in the
+              Strait of Gibraltar, serving as a gateway between the
+              Mediterranean and the Atlantic.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Morón de la Frontera
+            </Heading>
+            <div>
+              Morón de la Frontera was a frontier town located on the border
+              between Muslim and Christian territories, witnessing frequent
+              conflicts during the Reconquista.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Jaén
+            </Heading>
+            <div>
+              Jaén was a strategic city known for its olive oil production and
+              its position as a military stronghold during Islamic rule.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Valencia
+            </Heading>
+            <div>
+              Valencia, or Balansiya, was a major city under Islamic rule, known
+              for its agricultural productivity, silk industry, and cultural
+              achievements.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Baza
+            </Heading>
+            <div>
+              Baza was a Muslim town in the province of Granada, known for its
+              strategic location and its role in regional trade and agriculture.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Lorca
+            </Heading>
+            <div>
+              Lorca was a fortress town in southeastern Spain, known for its
+              castle and its significance as a military outpost during Islamic
+              rule.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Madinat al-Zahra
+            </Heading>
+            <div>
+              Madinat al-Zahra was a palatial city built by Abd al-Rahman III
+              near Córdoba, symbolizing the wealth and power of the Umayyad
+              Caliphate. It was destroyed in the 11th century during the civil
+              wars that led to the decline of the Caliphate of Córdoba.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Alzira
+            </Heading>
+            <div>
+              Under Muslim rule, Alzira was a town in the province of Valencia,
+              known for its agriculture, particularly the cultivation of oranges
+              and rice, during Islamic rule.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Elvira
+            </Heading>
+            <div>
+              Elvira, or Iliberri, was an ancient city near Granada, known for
+              its strategic location and its role as a cultural and
+              administrative center during Islamic rule.
+            </div>
+          </div>
+          <div className="space-y-2 px-8 py-2">
+            <Heading
+              as="h3"
+              intent="base-section"
+              className="text-center md:text-left lg:text-[24px]"
+            >
+              Murviedro
+            </Heading>
+            <div>
+              Murviedro was an important city in the Valencian region, it is now
+              known for its Roman and Moorish heritage, including its castle and
+              ancient ruins.
+            </div>
+          </div>
+        </div>
+      </SectionLayout>
+
       {/* Promotion section */}
       <div className="grid overflow-hidden md:grid-cols-2 lg:h-full lg:max-h-[500px] lg:place-items-center">
         <div className="h-full w-full justify-end bg-[#ECE9E1] md:flex">
@@ -149,10 +504,7 @@ export default function Home() {
                 Al-Andalus. Expected release date: June 2024
               </Text>
             </div>
-            <a
-              className="block py-1.5"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1"
-            >
+            <a className="block py-1.5" href="preorder">
               <Button fontSize="sm" className="py-1.5 md:text-base">
                 Pre-order
               </Button>

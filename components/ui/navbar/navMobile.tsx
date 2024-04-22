@@ -31,7 +31,7 @@ const links = [
   },
   {
     id: "preorder",
-    path: "https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1",
+    path: "/preorder",
     name: "Pre-Order",
   },
 ];

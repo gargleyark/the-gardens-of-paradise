@@ -45,7 +45,7 @@ export default function Home() {
               Poems from Al-Andalus
             </h3>
           </div>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1">
+          <a href="/preorder">
             <Button fontSize="sm" className="px-14 py-3 md:text-lg">
               Pre-Order Now
             </Button>
@@ -232,10 +232,7 @@ export default function Home() {
                 Al-Andalus. Expected release date: June 2024
               </Text>
             </div>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1"
-              className="block py-1.5"
-            >
+            <a href="/preorder" className="block py-1.5">
               <Button fontSize="sm" className="py-1.5 md:text-base">
                 Pre-order
               </Button>
