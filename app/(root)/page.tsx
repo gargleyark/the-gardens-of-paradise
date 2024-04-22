@@ -105,6 +105,31 @@ export default function Home() {
         </div>
       </SectionLayout>
 
+      <SectionLayout>
+        <div className="m-auto space-y-2 p-8 md:w-[500px] md:flex-col md:content-center md:items-start lg:flex">
+          <h3 className="w-full text-center text-[32px] italic">
+            The Orange Tree
+          </h3>
+          <div className="w-full px-8 py-2 text-center italic">
+            Ibn Sāra as-Santariní (called Ibn Sāra)
+            <br />
+            (Santarém, c1040-1123)
+          </div>
+          <div className="px-8 py-2">
+            <p>See the fruits of the orange tree, displayed above,</p>
+            <p className="pb-4">
+              That look like crimson tears from the trials of love.
+            </p>
+            <p>The topaz boughs filled with carnelian balls</p>
+            <p className="pb-4">
+              While the hand of the wind beats at them all.
+            </p>
+            <p>Sometimes we smell them, some of them we kiss,</p>
+            <p>They are bottles of perfume or fair maidens’ lips.</p>
+          </div>
+        </div>
+      </SectionLayout>
+
       {/* Product section */}
       <SectionLayout>
         <div className="m-auto space-y-2 p-8 lg:flex lg:w-[1000px] lg:flex-col lg:content-center lg:items-start">
