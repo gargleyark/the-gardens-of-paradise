@@ -153,12 +153,13 @@ export default function Home() {
             divided into three sections.
           </div>
           <div className="space-y-2 px-8 py-2">
-            In the first section, we delve into the everyday life of Al-Andalus,
-            as depicted by its poets. From the various cities bustling with
-            activity to the serene gardens and palaces, their words paint a
-            vivid picture of the vibrant society that flourished here. Love,
-            wisdom, and spiritual yearning permeate their verses, reflecting the
-            diverse experiences of the people who called this land home.
+            In the first section, you will delve into the everyday life of
+            Al-Andalus, as depicted by its poets. From the various cities
+            bustling with activity to the serene gardens and palaces, their
+            words paint a vivid picture of the vibrant society that flourished
+            here. Love, wisdom, and spiritual yearning permeate their verses,
+            reflecting the diverse experiences of the people who called this
+            land home.
           </div>
           <Image
             src="/images/left.png"
@@ -175,7 +176,7 @@ export default function Home() {
             mortal body.
           </div>
           <div className="space-y-2 px-8 py-2">
-            Finally, in the third part of this collection we encounter the
+            Finally, in the third part of this collection you will find the
             sombre elegies and poetic laments for cities and lands lost to
             conquest. Among the ruins of once-mighty fortresses, these verses
             mourn the passing of an era and the displacement of its people.
@@ -185,17 +186,18 @@ export default function Home() {
           <div className="space-y-2 px-8 py-2">
             Throughout the history of Al-Andalus, poetry was a poignant
             expression of the Andalusian experience. In the third part of this
-            book we see the poignant end of Al-Andalus. In the verses of poets
-            such as ar-Rundi, we glimpse the anguish and defiance of a people
-            grappling with the loss of their homeland. Elegies mourned the fall
-            of once-great cities like Cordoba and Seville, while odes celebrated
-            the resilience of Al-Andalusian culture in the face of adversity.
-            These poems served as both a lament for the past and a rallying cry
-            for the future, capturing the spirit of a society struggling to
-            preserve its identity in the midst of a seemingly endless war.
-            Through their words, we bear witness to the profound impact of the
-            Reconquista on the hearts and minds of those who lived through it,
-            forever immortalized in the annals of Andalusian poetry.
+            book you see the poignant end of Al-Andalus. In the verses of poets
+            such as ar-Rundi, you can glimpse the anguish and defiance of a
+            people grappling with the loss of their homeland. Elegies mourned
+            the fall of once-great cities like Cordoba and Seville, while odes
+            celebrated the resilience of Al-Andalusian culture in the face of
+            adversity. These poems served as both a lament for the past and a
+            rallying cry for the future, capturing the spirit of a society
+            struggling to preserve its identity in the midst of a seemingly
+            endless war. Through their words, you can still bear witness to the
+            profound impact of the Reconquista on the hearts and minds of those
+            who lived through it, forever immortalized in the annals of
+            Andalusian poetry.
           </div>
           <Image
             src="/images/right.png"
