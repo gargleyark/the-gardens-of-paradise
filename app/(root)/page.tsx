@@ -120,10 +120,8 @@ export default function Home() {
             <p className="pb-4">
               That look like crimson tears from the trials of love.
             </p>
-            <p>The topaz boughs filled with carnelian balls</p>
-            <p className="pb-4">
-              While the hand of the wind beats at them all.
-            </p>
+            <p>Topaz branches filled with carnelian balls</p>
+            <p className="pb-4">And the hand of the wind beats at them all.</p>
             <p>Sometimes we smell them, some of them we kiss,</p>
             <p>They are bottles of perfume or fair maidens’ lips.</p>
           </div>

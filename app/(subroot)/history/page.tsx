@@ -141,11 +141,37 @@ export default function Home() {
               Córdoba
             </Heading>
             <div>
-              Córdoba was the capital of the Islamic Caliphate of Córdoba, a
-              center of learning, culture, and science during the medieval
-              period. It reached its zenith under Abd al-Rahman III and his
-              successors, boasting grand mosques, palaces, and libraries, most
-              notably the breathtaking Great Mosque of Córdoba.
+              <p className="pb-4">
+                Córdoba was the capital of the Islamic Caliphate of Córdoba,
+                established in the 8th century when Muslim forces, led by the
+                Umayyad dynasty, conquered the Iberian Peninsula.
+              </p>
+              <p className="pb-4">
+                Under Islamic rule, Córdoba flourished as a hub of learning and
+                study. The Umayyad Caliphate of Córdoba was known for its
+                tolerance towards Christians and Jews, allowing them to practice
+                their religions freely.
+              </p>
+              <p className="pb-4">
+                An iconic symbol of Islamic Córdoba is the Great Mosque, also
+                known as the Mezquita. Originally constructed as a mosque in the
+                8th century using many fragments taken from nearby Roman ruins,
+                it underwent various expansions and renovations over time.
+              </p>
+              <p className="pb-4">
+                Córdoba reached its peak during the reign of Caliph Abd
+                ar-Rahman III (912-961), a period characterised by prosperity
+                and cultural advancement. The city became one of Europe's
+                largest and most prosperous, surpassing capitals like Paris and
+                Constantinople in population.
+              </p>
+              <p className="pb-4">
+                However, Córdoba's Islamic rule began to unravel in the 11th
+                century due to internal conflicts and the Reconquista—a
+                prolonged Christian campaign to reclaim the Iberian Peninsula.
+                In 1236, Córdoba fell to the forces of King Ferdinand III of
+                Castile, ending Islamic governance in the city.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -157,10 +183,38 @@ export default function Home() {
               Seville
             </Heading>
             <div>
-              Seville, known as Ishbiliya in Arabic, was another significant
-              city in Al-Andalus. It was conquered by the Moors in 712 AD and
-              became a prominent cultural and economic center with its strategic
-              location on the Guadalquivir River.
+              <p className="pb-4">
+                Seville, known as Ishbiliya in Arabic, fell under the control of
+                the Umayyad Caliphate of Córdoba during the early 8th century.
+              </p>
+              <p className="pb-4">
+                During Islamic governance, Seville emerged as a flourishing
+                center of culture and commerce. Its strategic position along the
+                Guadalquivir River facilitated lucrative trade routes linking
+                the region with North Africa and the Middle East. Seville
+                thrived as a centre for trade, agriculture, and artisanal
+                craftsmanship, contributing to the economic prosperity of the
+                wider area.
+              </p>
+              <p className="pb-4">
+                Among the enduring symbols of Islamic Seville is the Giralda
+                Tower, originally erected as a minaret for the city's grand
+                mosque during the Almohad dynasty in the 12th century. Its
+                architectural elegance exemplifies the refined craftsmanship and
+                engineering prowess of the Islamic era.
+              </p>
+              <p className="pb-4">
+                The city's landscape was further enriched by magnificent
+                palaces, fortifications, and public baths, all a testament to
+                the artistic and architectural achievements of the medieval
+                Islamic population.
+              </p>
+              <p className="pb-4">
+                Seville finally fell to Christian forces in 1248, ending Muslim
+                rule in the city. A large portion of its population were forced
+                to leave their homes and seek out new lives in exile in
+                remaining portions of Islamic Spain or North Africa.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -172,10 +226,21 @@ export default function Home() {
               Granada
             </Heading>
             <div>
-              Granada is renowned for the Alhambra, a stunning palace and
-              fortress complex constructed during the Nasrid dynasty. It was the
-              last Muslim stronghold to fall to the Catholic Monarchs in 1492,
-              marking the end of Muslim rule in Spain.
+              <p className="pb-4">
+                Granada is renowned for the Alhambra, a stunning palace and
+                fortress complex constructed during the Nasrid dynasty. Granada
+                reached its zenith under this dynasty, which ruled from the 13th
+                to the 15th century. The Nasrid Emirate of Granada was the last
+                Islamic kingdom in Spain. During this period, Granada became a
+                center of learning, art, and architecture.
+              </p>
+              <p className="pb-4">
+                By the late 15th century, the Catholic Monarchs, Queen Isabella
+                I of Castile and King Ferdinand II of Aragon, launched the final
+                phase of the Reconquista to unify Spain under Christian rule.
+                After a long siege, Granada finally fell to the Catholic forces
+                in January 1492, marking the end of Muslim rule in Spain.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -187,10 +252,30 @@ export default function Home() {
               Toledo
             </Heading>
             <div>
-              Toledo was a multicultural city under Islamic rule, known for its
-              production of steel and its vibrant intellectual scene. It served
-              as a center for translation and preservation of ancient Greek and
-              Roman texts into Arabic.
+              <p className="pb-4">
+                Toledo was a multicultural city under Islamic rule, known for
+                its production of steel and its vibrant intellectual scene.
+              </p>
+              <p className="pb-4">
+                The most significant period in Toledo's Islamic history was
+                during the reign of the Umayyad Caliphate of Córdoba (8th to
+                11th centuries). Toledo was an important administrative and
+                cultural center within the caliphate, contributing to its
+                reputation as one of the most prosperous cities in Al-Andalus.
+              </p>
+              <p className="pb-4">
+                At this time, Toledo was a centre for translation - works
+                including those of Greek, Roman, Persian, and Indian scholars
+                were translated into Arabic. Scholars like Al-Zahrawi, also
+                known as Abulcasis, made significant contributions to medicine
+                and surgery from Toledo.
+              </p>
+              <p className="pb-4">
+                Toledo's Islamic period came to an end in the 11th century with
+                the fragmentation of the Caliphate of Córdoba into smaller
+                competing Taifa kingdoms. Eventually, Toledo fell under the
+                control of the Christian Kingdom of Castile in 1085.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -202,9 +287,26 @@ export default function Home() {
               Málaga
             </Heading>
             <div>
-              Málaga was an important port city under Muslim rule, known for its
-              trade and commerce. It housed several mosques, baths, and
-              fortifications.
+              <p className="pb-4">
+                Málaga was an important port city under Muslim rule, known for
+                its trade and commerce. It housed several mosques, baths, and
+                fortifications.
+              </p>
+              <p className="pb-4">
+                During the peak of Muslim rule in Al-Andalus, Málaga became a
+                significant city within the Emirate of Córdoba and later the
+                Caliphate of Córdoba. It boasted a diverse population of
+                Muslims, Christians, and Jews, who coexisted relatively
+                peacefully and contributed to the city's prosperity.
+              </p>
+              <p className="pb-4">
+                Málaga's Islamic period saw the construction of several
+                architectural marvels, including the Alcazaba, a fortress
+                overlooking the city, and the Gibralfaro Castle, built atop a
+                hill for defensive purposes. These structures, along with the
+                city walls and mosques, exemplify the Islamic architectural
+                influence in Málaga.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -216,9 +318,31 @@ export default function Home() {
               Zaragoza
             </Heading>
             <div>
-              Zaragoza, or Saraqusta, was a key city during the Umayyad period
-              and later under the Taifa kingdoms. It flourished as a center of
-              Islamic art, culture, and education.
+              <p className="pb-4">
+                In 714 AD, Zaragoza was conquered by Muslim forces led by Musa
+                ibn Nusayr during the early expansion of Islamic rule in the
+                region.Zaragoza, or Saraqusta, was a key city during the Umayyad
+                period and later under the Taifa kingdoms. It flourished as a
+                center of Islamic art, culture, and education.
+              </p>
+              <p className="pb-4">
+                Under Islamic rule, Zaragoza flourished as a cultural and
+                commercial center. It was strategically located along the Ebro
+                River, which facilitated trade and communication with other
+                parts of Al-Andalus and beyond.
+              </p>
+              <p className="pb-4">
+                Zaragoza's Islamic period saw the construction of several
+                architectural landmarks, including mosques, palaces, and
+                fortifications. One of the most notable structures was the
+                Aljafería Palace, built during the 11th century by the Banu Hud
+                dynasty, which ruled Zaragoza independently during the Taifa
+                period.
+              </p>
+              <p className="pb-4">
+                Zaragoza was captured by the Christian Kingdom of Aragon in
+                1118.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -428,7 +552,7 @@ export default function Home() {
             </Heading>
             <div>
               Madinat al-Zahra was a palatial city built by Abd al-Rahman III
-              near Córdoba, symbolizing the wealth and power of the Umayyad
+              near Córdoba, symbolising the wealth and power of the Umayyad
               Caliphate. It was destroyed in the 11th century during the civil
               wars that led to the decline of the Caliphate of Córdoba.
             </div>
