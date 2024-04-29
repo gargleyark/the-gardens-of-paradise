@@ -161,13 +161,13 @@ export default function Home() {
               <p className="pb-4">
                 Córdoba reached its peak during the reign of Caliph Abd
                 ar-Rahman III (912-961), a period characterised by prosperity
-                and cultural advancement. The city became one of Europe's
+                and cultural advancement. The city became one of Europe&apos;s
                 largest and most prosperous, surpassing capitals like Paris and
                 Constantinople in population.
               </p>
               <p className="pb-4">
-                However, Córdoba's Islamic rule began to unravel in the 11th
-                century due to internal conflicts and the Reconquista—a
+                However, Córdoba&apos;s Islamic rule began to unravel in the
+                11th century due to internal conflicts and the Reconquista—a
                 prolonged Christian campaign to reclaim the Iberian Peninsula.
                 In 1236, Córdoba fell to the forces of King Ferdinand III of
                 Castile, ending Islamic governance in the city.
@@ -198,13 +198,13 @@ export default function Home() {
               </p>
               <p className="pb-4">
                 Among the enduring symbols of Islamic Seville is the Giralda
-                Tower, originally erected as a minaret for the city's grand
+                Tower, originally erected as a minaret for the city&apos;s grand
                 mosque during the Almohad dynasty in the 12th century. Its
                 architectural elegance exemplifies the refined craftsmanship and
                 engineering prowess of the Islamic era.
               </p>
               <p className="pb-4">
-                The city's landscape was further enriched by magnificent
+                The city&apos;s landscape was further enriched by magnificent
                 palaces, fortifications, and public baths, all a testament to
                 the artistic and architectural achievements of the medieval
                 Islamic population.
@@ -257,7 +257,7 @@ export default function Home() {
                 its production of steel and its vibrant intellectual scene.
               </p>
               <p className="pb-4">
-                The most significant period in Toledo's Islamic history was
+                The most significant period in Toledo&apos;s Islamic history was
                 during the reign of the Umayyad Caliphate of Córdoba (8th to
                 11th centuries). Toledo was an important administrative and
                 cultural center within the caliphate, contributing to its
@@ -271,8 +271,8 @@ export default function Home() {
                 and surgery from Toledo.
               </p>
               <p className="pb-4">
-                Toledo's Islamic period came to an end in the 11th century with
-                the fragmentation of the Caliphate of Córdoba into smaller
+                Toledo&apos;s Islamic period came to an end in the 11th century
+                with the fragmentation of the Caliphate of Córdoba into smaller
                 competing Taifa kingdoms. Eventually, Toledo fell under the
                 control of the Christian Kingdom of Castile in 1085.
               </p>
@@ -297,10 +297,10 @@ export default function Home() {
                 significant city within the Emirate of Córdoba and later the
                 Caliphate of Córdoba. It boasted a diverse population of
                 Muslims, Christians, and Jews, who coexisted relatively
-                peacefully and contributed to the city's prosperity.
+                peacefully and contributed to the city&apos;s prosperity.
               </p>
               <p className="pb-4">
-                Málaga's Islamic period saw the construction of several
+                Málaga&apos;s Islamic period saw the construction of several
                 architectural marvels, including the Alcazaba, a fortress
                 overlooking the city, and the Gibralfaro Castle, built atop a
                 hill for defensive purposes. These structures, along with the
@@ -332,7 +332,7 @@ export default function Home() {
                 parts of Al-Andalus and beyond.
               </p>
               <p className="pb-4">
-                Zaragoza's Islamic period saw the construction of several
+                Zaragoza&apos;s Islamic period saw the construction of several
                 architectural landmarks, including mosques, palaces, and
                 fortifications. One of the most notable structures was the
                 Aljafería Palace, built during the 11th century by the Banu Hud
@@ -393,13 +393,14 @@ export default function Home() {
                 invasions.
               </p>
               <p className="pb-4">
-                The city's Arab rulers also left their mark on Badajoz through
-                the construction of mosques, palaces, and public buildings.
-                However, much of this architectural heritage was later modified
-                or destroyed during subsequent periods of Christian rule.
+                The city&apos;s Arab rulers also left their mark on Badajoz
+                through the construction of mosques, palaces, and public
+                buildings. However, much of this architectural heritage was
+                later modified or destroyed during subsequent periods of
+                Christian rule.
               </p>
               <p className="pb-4">
-                Badajoz's Islamic history came to an end with the Christian
+                Badajoz&apos;s Islamic history came to an end with the Christian
                 Reconquista, when the city was captured by Alfonso IX of León in
                 1230.
               </p>
@@ -420,7 +421,7 @@ export default function Home() {
                 its agricultural production.
               </p>
               <p className="pb-4">
-                One of the most significant legacies of Santarém's Islamic
+                One of the most significant legacies of Santarém&apos;s Islamic
                 history is the Moorish castle. It is built on a hill overlooking
                 the city and served as a defensive stronghold during the Muslim
                 period. It later underwent significant reconstruction and
@@ -461,9 +462,9 @@ export default function Home() {
               <p className="pb-4">
                 An important building still remaining from this history is the
                 Alcazar of Jerez, a fortified palace built during the 11th and
-                12th centuries. The Alcazar served as a residence for the city's
-                Muslim rulers and later underwent further construction under
-                Christian rule.
+                12th centuries. The Alcazar served as a residence for the
+                city&apos;s Muslim rulers and later underwent further
+                construction under Christian rule.
               </p>
               <p className="pb-4">
                 The city was captured by Alfonso X of Castile in 1264.
@@ -516,14 +517,14 @@ export default function Home() {
                 center for trade and maritime activities during Islamic rule.
               </p>
               <p className="pb-4">
-                One surviving landmark of Almería's Arab history is the Alcazaba
-                of Almería, a fortified complex built during the 10th century.
-                The Alcazaba served as a defensive stronghold and administrative
-                center during the Muslim period and later underwent further
-                construction under Christian rule.
+                One surviving landmark of Almería&apos;s Arab history is the
+                Alcazaba of Almería, a fortified complex built during the 10th
+                century. The Alcazaba served as a defensive stronghold and
+                administrative center during the Muslim period and later
+                underwent further construction under Christian rule.
               </p>
               <p className="pb-4">
-                Almería's Arab history was much longer than many cities in
+                Almería&apos;s Arab history was much longer than many cities in
                 Al-Andalus, and it was not captured by Christian forces until
                 1489. With the exile of a large part of its population, the city
                 quickly diminished under Christian rule and the previous trading
@@ -576,10 +577,10 @@ export default function Home() {
                 its position as a military stronghold during Islamic rule.
               </p>
               <p className="pb-4">
-                One of the most iconic landmarks of Jaén's Islamic history is
-                the Alcázar Viejo, a fortified citadel built during the 9th and
-                10th centuries. The Alcázar served as a defensive stronghold and
-                administrative center during the Muslim period. The city was
+                One of the most iconic landmarks of Jaén&apos;s Islamic history
+                is the Alcázar Viejo, a fortified citadel built during the 9th
+                and 10th centuries. The Alcázar served as a defensive stronghold
+                and administrative center during the Muslim period. The city was
                 captured by Ferdinand III of Castile in 1246.
               </p>
             </div>
@@ -659,7 +660,7 @@ export default function Home() {
                 Construction of Madinat al-Zahra began around 936 AD and lasted
                 for several decades. Its construction was ordered by
                 Abd-ar-Rahman III, the Caliph of Córdoba, as a symbol of the
-                caliphate's power and wealth. It was made up of palaces,
+                caliphate&apos;s power and wealth. It was made up of palaces,
                 administrative buildings, mosques, gardens, all covered in
                 intricate artwork and luxurious materials such as marble.
               </p>
@@ -692,10 +693,10 @@ export default function Home() {
                 encircled by formidable walls, boasted mosques, bathhouses,
                 mills, and other essential infrastructure. Descriptions from the
                 12th-century geographical treatise of Al-Zuhví highlight
-                Alzira's prosperity, including a remarkable bridge with three
-                arches. Notable figures among the Alzirans of that era include
-                scholars like Ibn Jafaya and Ibn Amira, as well as philosophers,
-                jurists, historians, and mathematicians.
+                Alzira&apos;s prosperity, including a remarkable bridge with
+                three arches. Notable figures among the Alzirans of that era
+                include scholars like Ibn Jafaya and Ibn Amira, as well as
+                philosophers, jurists, historians, and mathematicians.
               </p>
               <p className="pb-4">
                 Alzira fell to King James I of Aragon on December 30th 1242,
@@ -718,10 +719,10 @@ export default function Home() {
               <p className="pb-4">
                 Elvira, known originally as Madīnat Ilbīra, was a significant
                 settlement in early Al-Andalus, built upon the site of the Roman
-                town "Florentia Iliberritana." Elvira was a hub for trade,
-                agriculture, and culture in the region. By the late 9th century,
-                it faced internal conflict between different factions, including
-                muwallads and Arabs led by Sawwār ibn Ḥamdūn.
+                town &quot;Florentia Iliberritana.&quot; Elvira was a hub for
+                trade, agriculture, and culture in the region. By the late 9th
+                century, it faced internal conflict between different factions,
+                including muwallads and Arabs led by Sawwār ibn Ḥamdūn.
               </p>
               <p className="pb-4">
                 During the 11th century, Elvira came under the domination of the
