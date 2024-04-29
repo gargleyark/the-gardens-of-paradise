@@ -354,9 +354,19 @@ export default function Home() {
               Murcia
             </Heading>
             <div>
-              Murcia was a significant city in Al-Andalus, known for its
-              agriculture, particularly the cultivation of silk. It was also a
-              center for Islamic scholarship and architecture.
+              <p className="pb-4">
+                Murcia was founded as a city in 825 by Abd ar-Rahman II, the
+                Umayyad Caliph of Córdoba, who established it as the capital of
+                the newly formed Emirate of Córdoba. It was a significant city
+                in Al-Andalus, known for its agriculture, particularly the
+                cultivation of silk. It was also a center for Islamic
+                scholarship and architecture.
+              </p>
+              <p className="pb-4">
+                The Arab rule in Murcia came to an end with the Christian
+                Reconquista, when the city was captured by the forces of King
+                Alfonso X of Castile in 1243.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -368,9 +378,31 @@ export default function Home() {
               Badajoz
             </Heading>
             <div>
-              Badajoz, or Batalyaws, was an important frontier city during the
-              Muslim rule, serving as a military stronghold and a center for
-              trade and agriculture.
+              <p className="pb-4">
+                Badajoz, or Batalyaws, was an important frontier city during the
+                Muslim rule, serving as a military stronghold and a center for
+                trade and agriculture. It was strategically situated along the
+                Guadiana River, which facilitated trade and communication with
+                other parts of Al-Andalus. Badajoz became known for its
+                agricultural production, particularly its orchards and
+                vineyards, as well as for its skilled craftsmen and artisans.
+              </p>
+              <p className="pb-4">
+                Being an important frontier city, its defensive fortifications
+                were expanded and strengthened to protect against potential
+                invasions.
+              </p>
+              <p className="pb-4">
+                The city's Arab rulers also left their mark on Badajoz through
+                the construction of mosques, palaces, and public buildings.
+                However, much of this architectural heritage was later modified
+                or destroyed during subsequent periods of Christian rule.
+              </p>
+              <p className="pb-4">
+                Badajoz's Islamic history came to an end with the Christian
+                Reconquista, when the city was captured by Alfonso IX of León in
+                1230.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -382,9 +414,19 @@ export default function Home() {
               Santarém
             </Heading>
             <div>
-              Santarém, or Shantarin, was a key city in Portugal under Islamic
-              rule, known for its strategic location on the Tagus River and its
-              agricultural production.
+              <p className="pb-4">
+                Santarém, or Shantarin, was a key city in Portugal under Islamic
+                rule, known for its strategic location on the Tagus River and
+                its agricultural production.
+              </p>
+              <p className="pb-4">
+                One of the most significant legacies of Santarém's Islamic
+                history is the Moorish castle. It is built on a hill overlooking
+                the city and served as a defensive stronghold during the Muslim
+                period. It later underwent significant reconstruction and
+                modification after the city was captured by King Afonso I of
+                Portugal in 1147.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -398,6 +440,7 @@ export default function Home() {
             <div>
               Dénia was a coastal city that served as a vital trading hub under
               Muslim rule, connecting Al-Andalus with the Mediterranean world.
+              The city was captured by King James I of Aragon in 1244.
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -406,13 +449,25 @@ export default function Home() {
               intent="base-section"
               className="text-center md:text-left lg:text-[24px]"
             >
-              Jerex
+              Jerez
             </Heading>
             <div>
-              Jerez, or Xerez, was an important settlement strategically located
-              near the frontier between Muslim-controlled territories and the
-              Christian kingdoms to the north. It was part of the Emirate of
-              Córdoba and later the Caliphate of Córdoba.
+              <p className="pb-4">
+                Jerez, or Xerez, was an important settlement strategically
+                located near the frontier between Muslim-controlled territories
+                and the Christian kingdoms to the north. It was part of the
+                Emirate of Córdoba and later the Caliphate of Córdoba.
+              </p>
+              <p className="pb-4">
+                An important building still remaining from this history is the
+                Alcazar of Jerez, a fortified palace built during the 11th and
+                12th centuries. The Alcazar served as a residence for the city's
+                Muslim rulers and later underwent further construction under
+                Christian rule.
+              </p>
+              <p className="pb-4">
+                The city was captured by Alfonso X of Castile in 1264.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -453,11 +508,29 @@ export default function Home() {
               intent="base-section"
               className="text-center md:text-left lg:text-[24px]"
             >
-              Almeria
+              Almería
             </Heading>
             <div>
-              Almeria was a coastal city with a strategic port, serving as a
-              center for trade and maritime activities during Islamic rule.
+              <p className="pb-4">
+                Almería was a coastal city with a strategic port, serving as a
+                center for trade and maritime activities during Islamic rule.
+              </p>
+              <p className="pb-4">
+                One surviving landmark of Almería's Arab history is the Alcazaba
+                of Almería, a fortified complex built during the 10th century.
+                The Alcazaba served as a defensive stronghold and administrative
+                center during the Muslim period and later underwent further
+                construction under Christian rule.
+              </p>
+              <p className="pb-4">
+                Almería's Arab history was much longer than many cities in
+                Al-Andalus, and it was not captured by Christian forces until
+                1489. With the exile of a large part of its population, the city
+                quickly diminished under Christian rule and the previous trading
+                hub became a much quieter agricultural settlement. The following
+                century saw it damaged by four earthquakes and raids by Barbary
+                pirates, destroying much of its Islamic architectural heritage.
+              </p>
             </div>
           </div>{" "}
           <div className="space-y-2 px-8 py-2">
@@ -497,8 +570,18 @@ export default function Home() {
               Jaén
             </Heading>
             <div>
-              Jaén was a strategic city known for its olive oil production and
-              its position as a military stronghold during Islamic rule.
+              {" "}
+              <p className="pb-4">
+                Jaén was a strategic city known for its olive oil production and
+                its position as a military stronghold during Islamic rule.
+              </p>
+              <p className="pb-4">
+                One of the most iconic landmarks of Jaén's Islamic history is
+                the Alcázar Viejo, a fortified citadel built during the 9th and
+                10th centuries. The Alcázar served as a defensive stronghold and
+                administrative center during the Muslim period. The city was
+                captured by Ferdinand III of Castile in 1246.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -510,9 +593,15 @@ export default function Home() {
               Valencia
             </Heading>
             <div>
-              Valencia, or Balansiya, was a major city under Islamic rule, known
-              for its agricultural productivity, silk industry, and cultural
-              achievements.
+              <p className="pb-4">
+                Valencia, or Balansiya, was a major city under Islamic rule,
+                known for its agricultural productivity, silk industry, and
+                cultural achievements. It was home to an impressive fortress,
+                later replaced by the Almudín - a medieval granary and market.
+              </p>
+              <p className="pb-4">
+                The city was captured by James I of Aragon in 1238.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -537,9 +626,24 @@ export default function Home() {
               Lorca
             </Heading>
             <div>
-              Lorca was a fortress town in southeastern Spain, known for its
-              castle and its significance as a military outpost during Islamic
-              rule.
+              <p className="pb-4">
+                Lorca, situated in the Region of Murcia, Spain, was originally a
+                Roman settlement. During the early 8th century, the region of
+                Lorca was part of the Visigothic Kingdom until the Islamic
+                conquest of the Iberian Peninsula. In 713, the Teodomiro Pact,
+                also known as the Treaty of Orihuela, was signed, marking the
+                integration of Lorca into the newly established Muslim
+                territory. It later became part of the Emirate of Córdoba.
+              </p>
+              <p className="pb-4">
+                After the collapse of the Caliphate of Córdoba, Lorca became
+                part of the Emirate of Valencia. In 1042, it declared
+                independence as a Taifa kingdom, governing an area extending to
+                Jaén and Baza. In 1244 it was conquered by Christians, with King
+                Fernando III of Castile and León and his son Alfonso, the future
+                Alfonso X of Castile, playing a significant role in its
+                conquest.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -551,10 +655,23 @@ export default function Home() {
               Madinat al-Zahra
             </Heading>
             <div>
-              Madinat al-Zahra was a palatial city built by Abd al-Rahman III
-              near Córdoba, symbolising the wealth and power of the Umayyad
-              Caliphate. It was destroyed in the 11th century during the civil
-              wars that led to the decline of the Caliphate of Córdoba.
+              <p className="pb-4">
+                Construction of Madinat al-Zahra began around 936 AD and lasted
+                for several decades. Its construction was ordered by
+                Abd-ar-Rahman III, the Caliph of Córdoba, as a symbol of the
+                caliphate's power and wealth. It was made up of palaces,
+                administrative buildings, mosques, gardens, all covered in
+                intricate artwork and luxurious materials such as marble.
+              </p>
+              <p className="pb-4">
+                Madinat al-Zahra flourished under the reign of Al-Hakam II, son
+                of Abd-ar-Rahman III, who expanded and enhanced the city. Yet,
+                its splendor was brief. Following the collapse of the Caliphate
+                of Córdoba in the early 11th century, Madinat al-Zahra was
+                slowly abandoned and left to decay. It became a quarry for
+                building materials and the buildings were looted for their
+                treasures.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -566,9 +683,27 @@ export default function Home() {
               Alzira
             </Heading>
             <div>
-              Under Muslim rule, Alzira was a town in the province of Valencia,
-              known for its agriculture, particularly the cultivation of oranges
-              and rice, during Islamic rule.
+              <p className="pb-4">
+                Alzira, founded by the Arabs, thrived as a significant town
+                during Muslim rule, governing itself with its own
+                administration. It played a central role in resisting Christian
+                advances during the Almoravid period and aligned with the
+                Almohads during their attempt at unification. The town,
+                encircled by formidable walls, boasted mosques, bathhouses,
+                mills, and other essential infrastructure. Descriptions from the
+                12th-century geographical treatise of Al-Zuhví highlight
+                Alzira's prosperity, including a remarkable bridge with three
+                arches. Notable figures among the Alzirans of that era include
+                scholars like Ibn Jafaya and Ibn Amira, as well as philosophers,
+                jurists, historians, and mathematicians.
+              </p>
+              <p className="pb-4">
+                Alzira fell to King James I of Aragon on December 30th 1242,
+                which was a pivotal event in the establishment of the Kingdom of
+                Valencia. This conquest was significant as Alzira was the only
+                city enabling the crossing of the Júcar River, making it a key
+                strategic location.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
@@ -580,9 +715,29 @@ export default function Home() {
               Elvira
             </Heading>
             <div>
-              Elvira, or Iliberri, was an ancient city near Granada, known for
-              its strategic location and its role as a cultural and
-              administrative center during Islamic rule.
+              <p className="pb-4">
+                Elvira, known originally as Madīnat Ilbīra, was a significant
+                settlement in early Al-Andalus, built upon the site of the Roman
+                town "Florentia Iliberritana." Elvira was a hub for trade,
+                agriculture, and culture in the region. By the late 9th century,
+                it faced internal conflict between different factions, including
+                muwallads and Arabs led by Sawwār ibn Ḥamdūn.
+              </p>
+              <p className="pb-4">
+                During the 11th century, Elvira came under the domination of the
+                Zirids, a Berber group from North Africa. The Zirids, rewarded
+                for their service to the Caliphate of Córdoba, were granted
+                control of the province of Elvira. However, following the
+                collapse of the Caliphate and the onset of civil war, the Zirid
+                leader Zawi ben Ziri established an independent kingdom known as
+                the Taifa of Granada. Granada, formerly known as Gharnata, rose
+                to prominence, eclipsing Elvira in importance.
+              </p>
+              <p className="pb-4">
+                Elvira was badly damaged during the civil war following the fall
+                of Caliphate of Córdoba. Instead of being restored to
+                prominance, Granada became the new major city of the region.
+              </p>
             </div>
           </div>
           <div className="space-y-2 px-8 py-2">
