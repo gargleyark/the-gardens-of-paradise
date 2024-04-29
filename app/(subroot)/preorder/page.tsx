@@ -1,41 +1,16 @@
 "use client";
 
-// package
-import Link from "next/link";
-import Image from "next/image";
-import FormfacadeEmbed from "@formfacade/embed-react";
-
 // layouts
 import SectionLayout from "@/layouts/sectionLayout";
-import { MinusIcon, PlusIcon } from "lucide-react";
 
 // ui
 import Button from "@/ui/button";
 import Heading from "@/ui/head";
-import Text from "@/ui/text";
-import CatalogSlider from "@/ui/slider/catalogSlider";
-import * as ProductCard from "@/ui/card/productCard";
-import {
-  ArrowRightIcon,
-  CallIcon,
-  DeliveryIcon,
-  LockIcon,
-  MoneyIcon,
-} from "@/ui/assets/svg";
 
 // lib
 import { formatCurrency } from "@/lib/utils";
 
-// ui
-import { StarIcon, WishlistIcon } from "@/ui/assets/svg";
-import ProductSlider from "@/ui/slider/productSlider";
-import ProductTab from "@/app/(subroot)/products/productTab";
-import ProductVariant from "@/app/(subroot)/products/productVariant";
-import ProductRecommendation from "@/app/(subroot)/products/productRecommendation";
-import { Product } from "@/types/product";
-
 // data
-import products from "@/data/product.json";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
@@ -340,11 +315,18 @@ export default function Home() {
                     type="button"
                     id="decrement-button"
                     data-input-counter-decrement="quantity"
-                    className="h-11 rounded-s-lg border border-gray-300 bg-gray-100 p-3 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-100 "
+                    className={`h-11 rounded-s-lg border  p-3 ${
+                      quantity > 1
+                        ? "border-gray-300 bg-gray-100 hover:bg-gray-200"
+                        : "border-gray-100 bg-white "
+                    } focus:outline-none focus:ring-2 focus:ring-gray-100 `}
                     onClick={decreaseQuantity}
+                    disabled={quantity === 1}
                   >
                     <svg
-                      className="h-3 w-3 text-gray-900 "
+                      className={`h-3 w-3  ${
+                        quantity > 1 ? "text-gray-900" : "text-gray-400"
+                      }`}
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

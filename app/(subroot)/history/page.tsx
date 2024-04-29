@@ -9,8 +9,6 @@ import SectionLayout from "@/layouts/sectionLayout";
 import Button from "@/ui/button";
 import Heading from "@/ui/head";
 import Text from "@/ui/text";
-import CatalogSlider from "@/ui/slider/catalogSlider";
-import * as ProductCard from "@/ui/card/productCard";
 import {
   ArrowRightIcon,
   CallIcon,
