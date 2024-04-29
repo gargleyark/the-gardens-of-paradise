@@ -840,8 +840,7 @@ export default function Home() {
                 Secure Payments
               </Text>
               <Text size="sm" color="gray">
-                You will receive a PayPal invoice for your order when it is
-                ready
+                We accept card payments, Apple Pay, and Google Pay
               </Text>
             </div>
           </div>

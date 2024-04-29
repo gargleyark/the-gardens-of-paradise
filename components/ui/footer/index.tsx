@@ -31,9 +31,7 @@ const Footer = () => {
               <Link href="/history">History of Al-Andalus</Link>
             </li>
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc0obNp4frWOZH6Oa8Yq7wiAu_p6LAMZ4YdMNz2aMz3lxXOug/viewform?usp=pp_url&entry.1732470099=UK&entry.477204586=1">
-                Pre-order
-              </Link>
+              <Link href="/preorder">Pre-order</Link>
             </li>
           </ul>
         </div>
