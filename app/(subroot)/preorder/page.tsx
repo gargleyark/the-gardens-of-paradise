@@ -195,7 +195,9 @@ export default function Home() {
                 <h1 className="font-poppins text-[40px] font-medium text-[#141718]">
                   The Gardens of Paradise
                 </h1>
-
+                <p className="font-poppins text-[18px] font-medium  text-[#141718]">
+                  Paperback
+                </p>
                 <p className="font-inter text-base font-normal text-[#6C7275]">
                   90 newly translated poems from a range of poets across
                   medieval Islamic Spain and Portugal, representing life, death,

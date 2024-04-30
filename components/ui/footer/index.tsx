@@ -63,7 +63,7 @@ const Footer = () => {
               color="white/800"
               className="text-center lg:order-1 lg:text-left"
             >
-              Copyright © 2023 M Steel. All rights reserved
+              Copyright © 2024 M Steel. All rights reserved
             </Text>
           </div>
         </div>
