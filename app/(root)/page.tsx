@@ -9,18 +9,8 @@ import SectionLayout from "@/layouts/sectionLayout";
 import Button from "@/ui/button";
 import Heading from "@/ui/head";
 import Text from "@/ui/text";
-import CatalogSlider from "@/ui/slider/catalogSlider";
-import * as ProductCard from "@/ui/card/productCard";
-import {
-  ArrowRightIcon,
-  CallIcon,
-  DeliveryIcon,
-  LockIcon,
-  MoneyIcon,
-} from "@/ui/assets/svg";
 
-// data
-import products from "@/data/product.json";
+import { DeliveryIcon, LockIcon, MoneyIcon } from "@/ui/assets/svg";
 
 export default function Home() {
   return (
@@ -45,11 +35,11 @@ export default function Home() {
               Poems from Al-Andalus
             </h3>
           </div>
-          <a href="/preorder">
+          <Link href="/preorder">
             <Button fontSize="sm" className="px-14 py-3 md:text-lg">
               Pre-Order Now
             </Button>
-          </a>
+          </Link>
         </div>
 
         {/* Image content */}
@@ -58,7 +48,7 @@ export default function Home() {
             src="/images/main-2.png"
             width={600}
             height={761}
-            alt="nigga-listening-music"
+            alt="image of poets from Al-Andalus"
             className="w-full max-w-[360px] object-cover object-top lg:max-w-[420px] xl:max-w-[460px]"
           />
         </div>
@@ -257,11 +247,11 @@ export default function Home() {
                 Al-Andalus. Expected release date: June 2024
               </Text>
             </div>
-            <a href="/preorder" className="block py-1.5">
+            <Link href="/preorder" className="block py-1.5">
               <Button fontSize="sm" className="py-1.5 md:text-base">
                 Pre-order
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -29,6 +29,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "The Gardens of Paradise - Poems from Al-Andalus",
   description: "The Gardens of Paradise - Poems from Al-Andalus",
+  keywords: "poetry, al-andalus, gardens of paradise",
 };
 
 export default function RootLayout({
