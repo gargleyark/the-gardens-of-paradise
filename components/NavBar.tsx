@@ -3,7 +3,6 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-
 import { CloseIcon, HamburgerMenu } from "@/ui/assets/svg";
 import Logo from "./ui/assets/logo";
 
@@ -33,6 +32,8 @@ export default function NavBar() {
   const [scroll, setScroll] = useState<boolean>(false);
   const [showMobNavBar, setShowMobNav] = useState<boolean>(false);
 
+  const closeMobNavBar = () => setShowMobNav(false);
+
   const handleOnScroll = () => {
     window.scrollY >= 32 ? setScroll(true) : setScroll(false);
   };
@@ -43,9 +44,35 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", handleOnScroll);
   }, []);
 
-  if (showMobNavBar) {
-    return (
+  return (
+    <>
+      <nav
+        className={cn(
+          "hidden flex-row lg:flex",
+          "sticky top-0 justify-center gap-6 px-8 py-4",
+          isHomePage ? "bg-[#ffc95c]" : "bg-white",
+          scroll && "bg-white shadow transition-colors duration-200 ease-in",
+        )}
+      >
+        {links.map(({ path, name }) => {
+          return (
+            <Link
+              key={`nav-${name}`}
+              href={path}
+              className={cn(
+                "font-inter text-sm font-medium text-[#141718] hover:opacity-100",
+                pathname !== path
+                  ? "opacity-70"
+                  : "underline underline-offset-2",
+              )}
+            >
+              {name}
+            </Link>
+          );
+        })}
+      </nav>
       <div
+        key={`mob-nav-${pathname}`}
         className={cn(
           "flex flex-row lg:hidden",
           "sticky top-0 justify-start px-8 py-4",
@@ -68,7 +95,7 @@ export default function NavBar() {
               <div className="flex flex-col gap-4">
                 <span className="flex justify-between">
                   <Logo />
-                  <button onClick={() => setShowMobNav(false)}>
+                  <button onClick={closeMobNavBar}>
                     <CloseIcon className="w-6" />
                   </button>
                 </span>
@@ -77,52 +104,24 @@ export default function NavBar() {
                     <Link
                       key={`mob-nav-${name}`}
                       href={path}
-                      className="block py-4 text-sm font-medium text-[#141718]"
+                      className="block py-4"
                     >
-                      {name}
+                      <div
+                        className="text-sm font-medium text-[#141718]"
+                        onClick={closeMobNavBar}
+                      >
+                        {name}
+                      </div>
                     </Link>
                   ))}
                 </nav>
               </div>
             </div>
             {/* div below is for clicking away */}
-            <div
-              className="h-full bg-black/30"
-              onClick={() => setShowMobNav(false)}
-            ></div>
+            <div className="h-full bg-black/30" onClick={closeMobNavBar}></div>
           </div>
         )}
       </div>
-    );
-  } else {
-    return (
-      <>
-        <nav
-          className={cn(
-            "hidden flex-row lg:flex",
-            "sticky top-0 justify-center gap-6 px-8 py-4",
-            isHomePage ? "bg-[#ffc95c]" : "bg-white",
-            scroll && "bg-white shadow transition-colors duration-200 ease-in",
-          )}
-        >
-          {links.map(({ path, name }) => {
-            return (
-              <Link
-                key={`nav-${name}`}
-                href={path}
-                className={cn(
-                  "font-inter text-sm font-medium text-[#141718] hover:opacity-100",
-                  pathname !== path
-                    ? "opacity-70"
-                    : "underline underline-offset-2",
-                )}
-              >
-                {name}
-              </Link>
-            );
-          })}
-        </nav>
-      </>
-    );
-  }
+    </>
+  );
 }

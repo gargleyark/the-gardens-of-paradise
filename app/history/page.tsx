@@ -22,7 +22,7 @@ import products from "@/data/product.json";
 
 export default function Home() {
   return (
-    <>
+    <main>
       {/* Hero section */}
       <SectionLayout
         bg="bg-[#ffc95c]"
@@ -846,6 +846,6 @@ export default function Home() {
           </div>
         </div>
       </SectionLayout>
-    </>
+    </main>
   );
 }

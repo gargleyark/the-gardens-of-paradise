@@ -8,9 +8,7 @@ import { cn } from "@/lib/utils";
 // css
 import "./globals.css";
 import Footer from "@/components/ui/footer";
-import { RootContextProvider } from "@/hooks/rootContext";
 import NavBar from "@/components/NavBar";
-// import Navbar from "@/components/ui/navbar";
 
 const imb_plex_serif = IBM_Plex_Serif({
   subsets: ["latin"],
@@ -48,7 +46,7 @@ export default function RootLayout({
     >
       <body>
         <NavBar />
-        <main>{children}</main>
+        {children}
         <Footer />
       </body>
     </html>

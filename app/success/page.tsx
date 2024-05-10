@@ -3,10 +3,11 @@ import SectionLayout from "@/layouts/sectionLayout";
 
 // ui
 import Heading from "@/ui/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <main>
       {/* Hero section */}
 
       <>
@@ -48,9 +49,13 @@ export default function Home() {
           <div className="mx-auto space-y-6 p-8 lg:space-y-16">
             <div className="grid grid-cols-1 gap-8 lg:m-auto lg:w-[600px] lg:grid-cols-2">
               <div className="relative h-full w-full">
-                <img
+                <Image
+                  alt="front cover of The Gardens of Paradise book"
                   src="/images/the-gardens-of-paradise.jpg"
-                  className="m-auto md:w-1/2 lg:w-3/4"
+                  className="m-auto object-contain md:w-1/2 lg:w-full"
+                  width={896}
+                  height={1271}
+                  priority
                 />
               </div>
 
@@ -90,6 +95,6 @@ export default function Home() {
       </>
 
       {/* Product section */}
-    </>
+    </main>
   );
 }
