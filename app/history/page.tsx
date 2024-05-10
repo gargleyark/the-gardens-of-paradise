@@ -8,16 +8,7 @@ import SectionLayout from "@/layouts/sectionLayout";
 import Button from "@/ui/button";
 import Heading from "@/ui/head";
 import Text from "@/ui/text";
-import {
-  ArrowRightIcon,
-  CallIcon,
-  DeliveryIcon,
-  LockIcon,
-  MoneyIcon,
-} from "@/ui/assets/svg";
-
-// data
-import products from "@/data/product.json";
+import { DeliveryIcon, LockIcon, MoneyIcon } from "@/ui/assets/svg";
 
 export default function Home() {
   return (
