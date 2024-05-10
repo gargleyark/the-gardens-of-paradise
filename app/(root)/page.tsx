@@ -11,11 +11,10 @@ import Heading from "@/ui/head";
 import Text from "@/ui/text";
 
 import { DeliveryIcon, LockIcon, MoneyIcon } from "@/ui/assets/svg";
-import PageLayout from "@/layouts/pageLayout";
 
 export default function Home() {
   return (
-    <PageLayout root={true}>
+    <>
       {/* Hero section */}
       <SectionLayout
         bg="bg-[#ffc95c]"
@@ -333,6 +332,6 @@ export default function Home() {
           </div>
         </div>
       </SectionLayout> */}
-    </PageLayout>
+    </>
   );
 }

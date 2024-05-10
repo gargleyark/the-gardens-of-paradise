@@ -7,6 +7,10 @@ import { cn } from "@/lib/utils";
 
 // css
 import "./globals.css";
+import Footer from "@/components/ui/footer";
+import { RootContextProvider } from "@/hooks/rootContext";
+import NavBar from "@/components/NavBar";
+// import Navbar from "@/components/ui/navbar";
 
 const imb_plex_serif = IBM_Plex_Serif({
   subsets: ["latin"],
@@ -42,7 +46,11 @@ export default function RootLayout({
       lang="en"
       className={cn(inter.variable, imb_plex_serif.variable, poppins.variable)}
     >
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
