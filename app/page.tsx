@@ -46,6 +46,7 @@ export default function Home() {
         <div className="flex h-auto w-full items-end justify-center overflow-hidden lg:order-1">
           <Image
             src="/images/main-2.png"
+            priority
             width={600}
             height={761}
             alt="image of poets from Al-Andalus"
