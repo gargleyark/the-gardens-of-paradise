@@ -1,6 +1,3 @@
-import products from "@/data/dummy.json";
-import { NextResponse } from "next/server";
-
 const stripe = require("stripe")(process.env.STRIPE_API_KEY);
 
 export async function POST(request: Request) {

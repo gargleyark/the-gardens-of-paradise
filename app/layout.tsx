@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 
 // css
 import "./globals.css";
+import Footer from "@/components/ui/footer";
+import NavBar from "@/components/NavBar";
 
 const imb_plex_serif = IBM_Plex_Serif({
   subsets: ["latin"],
@@ -42,7 +44,11 @@ export default function RootLayout({
       lang="en"
       className={cn(inter.variable, imb_plex_serif.variable, poppins.variable)}
     >
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

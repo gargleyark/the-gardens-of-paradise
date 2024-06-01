@@ -1,5 +1,4 @@
 // package
-import Link from "next/link";
 import Image from "next/image";
 
 // layouts
@@ -9,20 +8,11 @@ import SectionLayout from "@/layouts/sectionLayout";
 import Button from "@/ui/button";
 import Heading from "@/ui/head";
 import Text from "@/ui/text";
-import {
-  ArrowRightIcon,
-  CallIcon,
-  DeliveryIcon,
-  LockIcon,
-  MoneyIcon,
-} from "@/ui/assets/svg";
-
-// data
-import products from "@/data/product.json";
+import { DeliveryIcon, LockIcon, MoneyIcon } from "@/ui/assets/svg";
 
 export default function Home() {
   return (
-    <>
+    <main>
       {/* Hero section */}
       <SectionLayout
         bg="bg-[#ffc95c]"
@@ -846,6 +836,6 @@ export default function Home() {
           </div>
         </div>
       </SectionLayout>
-    </>
+    </main>
   );
 }
