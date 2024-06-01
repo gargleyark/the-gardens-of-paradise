@@ -765,16 +765,16 @@ export default function Home() {
                 promotion
               </Text>
               <Heading as="h2" intent="base-section">
-                Pre-order your copy now.
+                Order your copy now.
               </Heading>
               <Text size="sm" className="md:w-[350px]">
                 90 Poems representing life during the rise and fall of
                 Al-Andalus. Expected release date: June 2024
               </Text>
             </div>
-            <a className="block py-1.5" href="preorder">
+            <a className="block py-1.5" href="order">
               <Button fontSize="sm" className="py-1.5 md:text-base">
-                Pre-order
+                Order
               </Button>
             </a>
           </div>

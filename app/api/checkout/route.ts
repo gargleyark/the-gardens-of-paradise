@@ -123,7 +123,7 @@ export async function POST(request: Request) {
       ],
       mode: "payment",
       success_url: `${process.env.REDIRECT_URL}/success`,
-      cancel_url: `${process.env.REDIRECT_URL}/preorder#pre-order`,
+      cancel_url: `${process.env.REDIRECT_URL}/order#pre-order`,
       automatic_tax: { enabled: true },
       shipping_options: shippingCountryMatrix[shippingCountry].shipping_options,
       shipping_address_collection: {
@@ -135,7 +135,7 @@ export async function POST(request: Request) {
     return Response.redirect(session.url, 303);
   } catch (error) {
     return Response.redirect(
-      `${process.env.REDIRECT_URL}/preorder?error=true`,
+      `${process.env.REDIRECT_URL}/order?error=true`,
       303,
     );
   }

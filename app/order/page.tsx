@@ -109,7 +109,7 @@ export default function Home() {
             intent="hero-section"
             className="font-imb_plex_serif"
           >
-            Pre-Order
+            Order your copy
           </Heading>
         </div>
       </SectionLayout>
@@ -155,7 +155,7 @@ export default function Home() {
                   className="py-1.5 md:text-base"
                   onClick={() => scrolltoHash("pre-order")}
                 >
-                  Pre-order
+                  Order
                 </Button>
                 {/* </Link> */}
                 <p className="font-inter text-base font-normal text-[#343839]">
@@ -181,12 +181,11 @@ export default function Home() {
             intent="base-section"
             className="text-center md:text-left"
           >
-            Pre-order your copy
+            Order your copy
           </Heading>
 
           <div className="space-y-2 px-8 py-2">
-            Enter your details below and then checkout to complete your
-            pre-order!
+            Enter your details below and then checkout to complete your order!
           </div>
           <div className="my-12 space-y-6 rounded-md border border-[#6C7275] p-6 lg:p-16">
             <form action="/api/checkout" method="POST">
@@ -198,7 +197,7 @@ export default function Home() {
                   >
                     Please enter your email
                   </label>
-                  <span className="flex justify-between rounded-lg border border-gray-300 has-[:focus]:border-blue-500">
+                  <span className="has-[:focus]:border-blue-500 flex justify-between rounded-lg border border-gray-300">
                     <div className="py-auto rounded-l-lg  bg-gray-50 object-contain px-2.5 pt-3 align-middle">
                       <svg
                         className=" h-4 w-4  text-gray-500"
@@ -216,7 +215,7 @@ export default function Home() {
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full rounded-r-lg  bg-gray-50 p-2.5 ps-10 text-gray-900 focus:outline-none"
+                      className="w-full rounded-r-lg  bg-gray-50 p-2.5 text-gray-900 focus:outline-none"
                       placeholder="example@gmail.com"
                     />
                   </span>
@@ -248,10 +247,10 @@ export default function Home() {
                   htmlFor="quantity"
                   className="mb-2 block font-medium text-gray-900 "
                 >
-                  How many copies would you like to pre-order?
+                  How many copies would you like to order?
                 </label>
 
-                <span className="flex max-w-[8rem] justify-between rounded-lg border border-gray-300 has-[:focus]:border-blue-500">
+                <span className="has-[:focus]:border-blue-500 flex max-w-[8rem] justify-between rounded-lg border border-gray-300">
                   <button
                     type="button"
                     id="decrement-button"

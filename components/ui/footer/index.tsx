@@ -31,7 +31,7 @@ const Footer = () => {
               <Link href="/history">History of Al-Andalus</Link>
             </li>
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/preorder">Pre-order</Link>
+              <Link href="/order">Order now</Link>
             </li>
           </ul>
         </div>

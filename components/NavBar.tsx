@@ -21,8 +21,8 @@ const links: Link[] = [
     name: "The History of Al-Andalus",
   },
   {
-    path: "/preorder",
-    name: "Pre-Order",
+    path: "/order",
+    name: "Order now",
   },
 ];
 
